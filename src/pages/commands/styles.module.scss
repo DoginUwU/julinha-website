@@ -1,0 +1,57 @@
+.Container {
+  width: 100vw;
+  height: calc(100vh - 5rem);
+  position: relative;
+  display: grid;
+  grid-template-columns: 0.5fr 2fr;
+
+  @media screen and (max-width: 600px) {
+    grid-template-columns: 1fr;
+    height: auto;
+  }
+}
+
+.commands {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 3rem;
+  gap: 3rem;
+  border-right: 1px;
+  border-top: 0px;
+  border-left: 0px;
+  border-bottom: 0px;
+  border-color: var(--gray-800);
+  border-style: solid;
+  position: relative;
+
+  @media screen and (max-width: 600px) {
+    gap: 1rem;
+    padding: 1rem;
+    border-right: 0px;
+    border-bottom: 1px;
+  }
+
+  p {
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+    text-transform: lowercase;
+
+    &:hover {
+      cursor: pointer;
+      color: var(--purple-100);
+    }
+  }
+  .active {
+    color: var(--purple-100);
+  }
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}

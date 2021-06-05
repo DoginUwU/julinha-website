@@ -1,0 +1,15 @@
+.Container {
+  width: 100vw;
+  height: calc(100vh - 5rem);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  h1 {
+    font-weight: 100;
+  }
+
+  span {
+    color: var(--pink-50);
+  }
+}

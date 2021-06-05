@@ -1,0 +1,41 @@
+.signInButton {
+  cursor: pointer;
+  padding: 1rem;
+  border: var(--white) 1px solid;
+  border-radius: 1rem;
+  transition: all 0.2s;
+  font-weight: bold;
+
+  &:hover {
+    background-color: var(--white);
+    color: black;
+  }
+}
+
+.profile {
+  cursor: pointer;
+  img {
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    transition: opacity 0.2s;
+
+    &:hover {
+      opacity: 0.8;
+    }
+
+    @media screen and (max-width: 450px) {
+      width: 2.5rem;
+      height: 2.5rem;
+    }
+  }
+}
+
+.popover {
+  background-color: var(--white);
+  color: var(--black);
+  padding: 0.5rem;
+  border-radius: 0.75rem;
+  margin-top: 0.5rem;
+  font-size: 0.75rem;
+}
