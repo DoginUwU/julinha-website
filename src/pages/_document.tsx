@@ -29,7 +29,12 @@ export default class MyDocument extends Document {
             property="og:description"
             content="Um simples bot 100% gratuito do Discord."
           />
-          <meta name="theme-color" content="#FF0000" />
+          <meta name="theme-color" content="#d987ff" />
+          <link
+            rel="shortcut icon"
+            href="./images/favicon.png"
+            type="image/png"
+          />
         </Head>
         <body>
           <Main />
