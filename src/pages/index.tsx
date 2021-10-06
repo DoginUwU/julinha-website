@@ -18,13 +18,13 @@ export default function Home() {
         <img src="./images/julinha.png" alt="" />
         <div className={styles.Buttons}>
           <a
-            href="https://discord.com/api/oauth2/authorize?client_id=742876019706298568&permissions=8&scope=bot"
+            href="https://discord.com/oauth2/authorize?client_id=742876019706298568&scope=bot&permissions=8589934591"
             className={`${styles.Button} ${styles.pink}`}
           >
             ME ADICIONAR
           </a>
           <a
-            href="https://discord.gg/GfYafdfg"
+            href="https://discord.gg/XGgfqFAbCx"
             className={`${styles.Button} ${styles.blue}`}
           >
             <FaDiscord /> SUPORTE
